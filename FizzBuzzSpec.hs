@@ -1,11 +1,11 @@
-module FizzBuzzSpec
+module FizzBuzzSpec where
 
 import Test.Hspec
-import Test.QuickCheck
-import Control.Exception (evaluate)
+import FizzBuzz
 
-main :: IO ()
-main = hspec $ do
-  describe "FizzBuzz" $ do
-    it "talks to this spec file" $ do
-      head [23 ..] `shouldBe` (23 :: Int)
+fizzbuzz :: IO ()
+fizzbuzz = hspec $ do
+  describe "fizzbuzz" $ do
+    it "returns numbers not divisible by 3 or 5" $
+      fizzbuzz 1 `shouldBe` 1
+      fizzbuzz 4 `shouldBe` 4
