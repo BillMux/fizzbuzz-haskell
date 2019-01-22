@@ -1,5 +1,7 @@
 # FizzBuzz Haskell
 
+--INCOMPLETE--
+
 I have started to study a new language, Haskell, by test driving the programming classic FizzBuzz.
 
 ## Getting started
@@ -12,3 +14,7 @@ I have started to study a new language, Haskell, by test driving the programming
 If you don't, this command should install and update straight away!
 
 4. Install the testing framework, HSpec: `cabal install hspec`
+
+## Running the tests
+
+`runhaskell FizzBuzzSpec.hs`
