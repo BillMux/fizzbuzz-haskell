@@ -7,7 +7,7 @@ The module returns "Fizz" when a number is divisible by 3, "Buzz" when a number 
 
 1. Clone this repo
 
-2. [Download Haskell Platform] (https://www.haskell.org/platform/)
+2. [Download Haskell Platform](https://www.haskell.org/platform/) (if you haven't already!)
 
 3. Check you have the latest version of Haskell's packager Cabal: `cabal`
 If you don't, this command should install and update straight away!
