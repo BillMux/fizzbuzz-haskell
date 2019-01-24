@@ -1,8 +1,7 @@
 # FizzBuzz Haskell
 
---INCOMPLETE--
-
 I have started to study a new language, Haskell, by test driving the programming classic FizzBuzz.
+The module returns "Fizz" when a number is divisible by 3, "Buzz" when a number is divisible by 5, "FizzBuzz" when a number is divisible by both 3 and 5, and returns the original number otherwise
 
 ## Getting started
 
