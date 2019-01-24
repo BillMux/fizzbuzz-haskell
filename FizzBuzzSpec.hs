@@ -14,3 +14,6 @@ main = hspec $ do
 
     it "returns 'Buzz' if number divides by 5" $
       fizzbuzz 5 `shouldBe` "Buzz"
+
+    it "returns 'FizzBuzz' if number divides 3 and 5" $
+      fizzbuzz 15 `shouldBe` "FizzBuzz"
