@@ -1,4 +1,5 @@
 module FizzBuzz where
 
 fizzbuzz :: Int -> Int
-fizzbuzz = undefined
+
+fizzbuzz n = n
